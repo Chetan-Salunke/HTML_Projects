@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+
+<body>
+    <h1>Forms in HTML</h1>
+    <form action="">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter you username" name="" id="username" autocomplete="off">
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" name="" placeholder="Enter your Email" id="Email" required>
+            <br>
+            <label for="Password">Enter your Password</label>
+            <input type="password" name="" id="Password">
+            <br>
+            <label for="Password">Enter your Message</label>
+            <textarea name="" id="" cols="30" rows="1"></textarea>
+            <br>
+            <label for="gender">Gender</label> 
+            <input type="radio" name="gender" id="">Male
+            <input type="radio" name="gender" id="">Female
+            <!-- <input type="checkbox" name="" id=""> -->
+            <input type="number" max="5" name="" id="">
+            <br>
+            <button>Submit</button>
+            <hr>
+            <h1>Dropdown</h1>
+            <div>
+                <label for="country">Enter your Country</label>
+                <input type="text" name="country" id="country" list="countries">
+                <datalist id="countries">
+                    <option value="">USA</option>
+                    <option value="">India</option>
+                </datalist>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
